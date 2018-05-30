@@ -1,9 +1,12 @@
+deliLine = []
+
 function takeANumber(line,name){
   line.push(name);
   var position = line.length;
   return `Welcome, ${name}. You are number ${position} in line.`; 
 }
 
+console.log(takeANumber(deliLine, "steven"))
 function nowServing(line){
   if (line.length === 0){
     return "There is nobody waiting to be served!";
