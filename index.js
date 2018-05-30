@@ -1,7 +1,7 @@
 deliLine = []
-var position = 0
+var position = 0;
 function takeANumber(line,name){
-  
+  position += 1;
   line.push(name);
   
   
