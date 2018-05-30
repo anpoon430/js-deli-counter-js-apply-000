@@ -6,8 +6,8 @@ function takeANumber(line){
   return `Welcome, You are number ${position}.`; 
 }
 
-console.log(takeANumber(deliLine, "steven"))
-console.log(takeANumber(deliLine, "andy"))
+console.log(takeANumber(deliLine))
+console.log(takeANumber(deliLine))
 
 function nowServing(line){
   if (line.length === 0){
