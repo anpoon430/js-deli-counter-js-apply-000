@@ -1,9 +1,9 @@
 deliLine = []
-
+var position = 0
 function takeANumber(line,name){
   
   line.push(name);
-  var position = 0
+  
   
   position = line.length;
   return `Welcome, ${name}. You are number ${position} in line.`; 
