@@ -8,6 +8,7 @@ function takeANumber(line){
 
 console.log(takeANumber(deliLine))
 console.log(takeANumber(deliLine))
+console.log(takeANumber(no))
 
 function nowServing(line){
   if (line.length === 0){
