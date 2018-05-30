@@ -1,12 +1,9 @@
 deliLine = []
 var position = 0;
-function takeANumber(line,name){
+function takeANumber(line){
   position += 1;
-  line.push(name);
-  
-  
-  position = line.length;
-  return `Welcome, ${name}. You are number ${position} in line.`; 
+  line.push(position);
+  return `Welcome, You are number ${position}.`; 
 }
 
 console.log(takeANumber(deliLine, "steven"))
