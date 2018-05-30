@@ -11,6 +11,7 @@ console.log(takeANumber(deliLine))
 console.log(currentLine(deliLine))
 console.log(nowServing(deliLine))
 console.log(currentLine(deliLine))
+
 function nowServing(line){
   if (line.length === 0){
     return "There is nobody waiting to be served!";
