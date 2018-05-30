@@ -7,6 +7,8 @@ function takeANumber(line,name){
 }
 
 console.log(takeANumber(deliLine, "steven"))
+console.log(takeANumber(deliLine, "andy"))
+
 function nowServing(line){
   if (line.length === 0){
     return "There is nobody waiting to be served!";
